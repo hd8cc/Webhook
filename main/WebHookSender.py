@@ -36,3 +36,8 @@ client.request("POST", id, body=json_data, headers=headers)
 response = client.getresponse()
 client.close()
 
+print("[GATEWAY] Opened Request")
+print("[GATEWAY] Sent Id")
+print("[WEBHOOK] Checking files...")
+print("[GATEWAY] Closed Gateway")
+
