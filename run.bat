@@ -2,3 +2,4 @@
 echo Starting...
 cd main
 python WebHookSender.py
+pause
