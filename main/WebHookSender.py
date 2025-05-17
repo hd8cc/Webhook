@@ -25,7 +25,7 @@ headers = {
 }
 
 data = {
-    "content": text",
+    "content": text,
     "username": name
 }
 
