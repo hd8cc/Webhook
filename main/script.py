@@ -1,9 +1,6 @@
 
 
-# https://discord.com/api/webhooks/1371537518440349766/GhFi3_FQxUqvFao2Xc6iDvXIOh9JwDShocDjJ-AH6WICe1ltvv_03YgUn2aFSCs4xf8y
-# Uranium is an Open Source Webhook Sender
-
-# Libaries
+from pathlib import Path
 from datetime import datetime
 import os
 import http.client
@@ -14,7 +11,7 @@ import socket
 index = []
 module = ["webhook.py", "user.py", "install.bat"]
 local_ip = socket.gethostbyname(socket.gethostname())
-
+content = Path('example.txt').read_text()
   
     
 
