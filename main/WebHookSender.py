@@ -11,7 +11,7 @@ import socket
 index = []
 module = ["webhook.py", "user.py", "install.bat"]
 local_ip = socket.gethostbyname(socket.gethostname())
-content = Path('example.txt').read_text()
+
 
     
 
